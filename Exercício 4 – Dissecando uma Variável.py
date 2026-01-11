@@ -1,5 +1,5 @@
-digite_algo = input('Digite algo: ')
-print(f'\nO tipo primitivo desse valor é {type(digite_algo)}')
+digite_algo = input('\033[7mDigite algo:\033[m ')
+print(f'\nO tipo primitivo desse valor é \033[35m{type(digite_algo)}\033[m')
 print(f'Só tem espaço? {digite_algo.isspace()}')
 print(f'É um número? {digite_algo.isnumeric()}')
 print(f'É alfabético? {digite_algo.isalpha()}')
